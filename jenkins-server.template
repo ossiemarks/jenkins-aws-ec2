@@ -352,7 +352,7 @@
                                 "# Install Jenkins and Java 8\n",
                                 "cd /opt/\n",
                                 "wget --no-cookies --header \"Cookie: gpw_e24=xxx; oraclelicense=accept-securebackup-cookie;\" \"http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz\"\n",
-                                "tar -zxf jdk-8u151-linux-x64.tar.gz"
+                                "tar -zxf jdk-8u151-linux-x64.tar.gz\n",
                                 "rpm -i jdk-8u144-linux-x64.rpm\n",
                                 "alternatives --set java /opt/jdk1.8.0_151/bin/java\n",
                                 "wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo\n",
